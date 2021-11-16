@@ -1,0 +1,406 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 100vh;
+}
+
+nav{
+    border-bottom: solid gray 1px;
+    background-color: rgba(0, 0, 0, .2);
+}
+.navbar .nav-item a{
+    font-size: 13px;
+    font-family: sans-serif;
+    transition: color 0.5s;
+}
+
+.navbar .nav-item a:hover{
+    color: red !important;
+}
+
+header{
+    height: 100vh;
+}
+
+header .carousel{
+    overflow: hidden;
+}
+
+header .prev{
+   top:50% !important;
+    right:150%;
+    height: 50px;
+    width: 50px;
+    background: none;
+    border: none;
+    border: none;
+    border: solid white 1px;
+    border-left: none;
+    border-radius: 3px;
+}
+
+header .prev::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    
+}
+
+header .prev:hover::after{
+    right: 0%;
+}
+header .prev span{
+    z-index: 1;
+    font-size: 30px;
+}
+header .prev:hover span{
+    color: red !important;
+}
+
+header .nex::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    
+}
+
+header .nex:hover::after{
+    right: 0%;
+}
+header .nex span{
+    z-index: 1;
+    font-size: 30px;
+}
+header .nex:hover span{
+    color: red !important;
+}
+
+
+
+
+header .nex{
+    top:43.6% !important;
+    left:0%;
+    height: 50px;
+    width: 50px;
+    background: none;
+    border: none;
+    border: solid white 1px;
+    border-left: none;
+    border-radius: 3px;
+}
+
+header .carousel-item img{
+    position: center center;
+    
+}
+
+.about .container .para{
+   width: 66%;
+   
+}
+.gray{
+    color: gray;
+}
+
+.about h2{
+    font-size: 38px;
+    position:relative;
+}
+
+.about h2::after{
+    position: absolute;
+    content: "A";
+    right:49%;
+    font-size: 70px;
+    bottom: 19%;
+    opacity: .3;
+}
+
+.about h2::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    bottom: 0%;
+    left: 47%;
+    transition: all .3s;
+}
+
+.about h2:hover::before{
+    width: 10% ;
+    left: 45%;
+}
+
+
+.about p{
+    font-size: 18px;
+}
+
+.about label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.about .progress{
+    height:5px ;
+}
+
+.about .first{
+    position: relative;
+    left: 66%;
+}
+
+.about .second {
+    position: relative;
+    left: 77%;
+}
+
+.about .third{
+    position: relative;
+    left: 66%;
+}
+
+.about .fourth{
+    position: relative;
+    left: 53%;
+}
+
+.contact .ideas{
+    justify-content: space-around;
+}
+
+
+.services .para{
+    width: 66%;
+}
+
+.services h2{
+    font-size: 38px;
+    position:relative;
+}
+
+.services h2::after{
+    position: absolute;
+    content: "S";
+    right:49%;
+    font-size: 70px;
+    bottom: 19%;
+    opacity: .3;
+}
+
+.services h2::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    bottom: 0%;
+    left: 47%;
+    transition: all .3s;
+}
+
+.services h2:hover::before{
+    width: 10% ;
+    left: 45%;
+}
+
+.services .serItem i{
+    font-size: 30px;
+    color: red;
+}
+
+.services .serItem h3{
+    font-size: 20px;
+    transition:  color .3s;
+}
+
+.services .serItem:hover h3{
+    color: red;
+}
+
+.reviews .para{
+    width: 66%;
+}
+
+.reviews h2{
+    font-size: 38px;
+    position:relative;
+}
+
+.reviews h2::after{
+    position: absolute;
+    content: "C";
+    right:49%;
+    font-size: 70px;
+    bottom: 19%;
+    opacity: .3;
+}
+
+.reviews h2::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    bottom: 0%;
+    left: 47%;
+    transition: all .3s;
+}
+
+.reviews h2:hover::before{
+    width: 10% ;
+    left: 45%;
+}
+
+.touch .para{
+    width: 66%;
+}
+
+.touch h2{
+    font-size: 38px;
+    position:relative;
+}
+
+.touch h2::after{
+    position: absolute;
+    content: "T";
+    right:49%;
+    font-size: 70px;
+    bottom: 19%;
+    opacity: .3;
+}
+
+.touch h2::before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 5%;
+    bottom: 0%;
+    left: 47%;
+    transition: all .3s;
+}
+
+.touch h2:hover::before{
+    width: 10% ;
+    left: 45%;
+}
+
+.touch .left i{
+    font-size: 35px;
+    color: red;
+}
+
+.touch h3{
+    font-size: 30px;
+}
+
+.touch .item-left{
+    border-bottom: solid rgba(90, 88, 88, 0.2) 1px;
+}
+
+.touch .item-left h4:hover{
+    color: red;
+}
+.form-control:focus {
+    border-color: #FF0000;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 5px rgba(242, 84, 84, 0.6);
+}
+
+.touch .last-border{
+    border: none;
+}
+
+footer{
+    background-color: gray;
+    
+    
+}
+
+footer .finale{
+    background-color: black;
+}
+
+footer .finale ul li{
+    font-size: 20px;
+}
+
+
+footer button:hover{
+    color: red !important;
+    border-color: red !important;
+    background-color: transparent !important;
+}
+.finale ul li{
+    transition: color .3s;
+}
+
+.finale ul li:hover{
+    color: red !important;
+}
+
+.finale .finaly{
+    justify-content: space-between;
+} 
+
+footer .up{
+    bottom: 95%;
+    left: 49%;
+    opacity: .5;
+}
+
+footer .up:hover{
+    background-color: red !important;
+}
+.caros{
+    width:40%
+}
+
+.caro{
+    position: relative;
+}
+
+.caro .btn1{
+    position: absolute;
+    width:150px;
+    height:150px;
+    background-color: black;
+    left: -15%;
+    bottom: 100%;
+    opacity: 0;
+}
+
+.caro .btn2{
+    position: absolute;
+    width:150px;
+    height:150px;
+    background-color: black;
+    right: 33%;
+    bottom: 100%;
+    opacity: 0;
+    
+}
+
+.caro .btn3{
+    position: absolute;
+    width:150px;
+    height:150px;
+    background-color: black;
+    right: -15%;
+    bottom: 100%;
+    opacity: 0;
+}
+
